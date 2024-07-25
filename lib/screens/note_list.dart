@@ -21,10 +21,7 @@ class NoteListState extends State<NoteList> {
   @override
   void initState() {
     super.initState();
-    setState(() {
-      updateListView();
-    });
-
+    updateListView();
   }
 
   @override
